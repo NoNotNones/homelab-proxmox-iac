@@ -1,0 +1,14 @@
+name: Test Self-hosted Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+      - name: Check system
+        run: uname -a
+
+      - name: Print user
+        run: whoami
