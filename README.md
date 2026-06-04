@@ -1,6 +1,6 @@
 # Homelab Proxmox IaC
 ## Architecture
-
+```int
 GitHub
   ↓
 GitHub Actions
@@ -16,6 +16,7 @@ VM Infrastructure
 ## Environments
 - dev
 - prod
+```
 
 ## Purpose
 This repo manages Proxmox infrastructure using Terraform and GitHub Actions.
